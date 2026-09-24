@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+ 
+// 1) Le dois inteiros e imprime na ordem inversa 
+
+int main(void) {
+    int a, b;
+ 
+    printf("Digite o primeiro numero inteiro: ");
+    scanf("%d", &a);
+    printf("Digite o segundo numero inteiro: ");
+    scanf("%d", &b);
+ 
+    /* Basta imprimir primeiro o que foi lido por ultimo */
+    printf("Ordem inversa: %d %d\n", b, a);
+ 
+    return 0;
+}
