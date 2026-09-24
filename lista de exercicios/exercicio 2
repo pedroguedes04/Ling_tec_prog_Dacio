@@ -1,0 +1,35 @@
+#include <stdio.h>
+ 
+// 2) Le um double positivo e mostra em notacao cientifica (A x 10^n, 1 <= A < 10) 
+
+int main(void) {
+    double valor, mantissa;
+    int expoente = 0;
+ 
+    printf("Digite um valor positivo (double): ");
+    scanf("%lf", &valor);
+ 
+    if (valor <= 0) {
+        printf("Considere somente valores positivos.\n");
+        return 0;
+    }
+ 
+    mantissa = valor;
+ 
+    /* Se a mantissa for >= 10, divide por 10 e soma 1 no expoente */
+    while (mantissa >= 10.0) {
+        mantissa = mantissa / 10.0;
+        expoente++;
+    }
+ 
+    /* Se a mantissa for < 1, multiplica por 10 e subtrai 1 do expoente */
+    while (mantissa < 1.0) {
+        mantissa = mantissa * 10.0;
+        expoente--;
+    }
+ 
+    /* Agora 1 <= mantissa < 10 */
+    printf("Notacao cientifica: %.4lf x 10^%d\n", mantissa, expoente);
+ 
+    return 0;
+}
