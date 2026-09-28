@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// resolução prova dacio - questão 1
+
+int main() {
+	
+	int quantidade_total, maximo, n_mochilas, resto;
+	
+	printf ("Insira a quantidade de itens e a capacidade da mochila");
+	scanf ("%d %d", &quantidade_total, &maximo);
+	
+	m_mochilas = quantidade_total/maximo;
+	resto = quantidade_total%maximo;
+	
+	printf ("São %d mochilas e restam %d itens", n_mochilas, resto);
+	return 0;
+}
