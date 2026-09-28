@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// resolução prova dacio - questão 1
+/* resolução prova dacio - questão 1
+Um legendario precisa organizar seus equipamentos para uma viagem utilizando mochilas de capacidade identica. Dada a quantidade total de itens a serem transportados
+e a capacidade maxima de itens que cabem em cada mochila, informe ao legendario numero de mochilas que serão totalmente preenchidas pelos seus itens;
+Na linha de baixo, a quantidade que sobraram (que não preenchem uma mochila inteira) */
 
 int main() {
 	
