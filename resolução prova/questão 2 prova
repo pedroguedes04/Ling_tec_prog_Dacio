@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Questão 2 prova - Faça um programa que receba tres numeros inteiros a, b e c entrados pelo usuario. Se algum dos numeros for igual a outro, imprima
+ a mensagem "os numeros tem que ser distintos". Caso contrario, imprima eles em uma mesma linha em ordem crescente. */
+
+
+int main() {
+	int a, b, c, auxiliar;
+	printf("Insira a, b, c: ");
+	scanf ("%d %d %d", &a, &b, &c);
+	
+if (a!=b && b!=c && c!=a){
+
+  if (a>b){
+  auxiliar = a;
+  a = b;
+  b = a;
+} else if (b>c){
+auxiliar = b;
+b = c;
+c = auxiliar;
+}
+
+printf ("Os valores em ordem %d %d %d", a, b, c);
+} else printf ("Os números tem que ser distintos");
+	return 0;
+}
