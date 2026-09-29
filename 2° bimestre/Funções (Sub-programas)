@@ -9,3 +9,9 @@ comando ...2
 return (valor_do_tipo);
 
 obs: para tipo VOID não é necessario return
+
+-----------------
+POW (B E)
+SQRT (x)
+PRINTF (" ", variavel)
+SCANF ("...")
