@@ -1,0 +1,11 @@
+É um bloco de codigo que pode eer reutilizado quantas vezes for chamado, serve pra executar diversas vezes uma "função" (funcionalidade) 
+especifica a qual foi programada.
+
+SINTAX
+Tipo ----- nome_da_funcao (lista de parametros) -----> forma dos parametros (tipo nome)
+comando ...1
+comando ...2
+
+return (valor_do_tipo);
+
+obs: para tipo VOID não é necessario return
