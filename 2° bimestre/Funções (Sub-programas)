@@ -11,7 +11,7 @@ return (valor_do_tipo);
 obs: para tipo VOID não é necessario return
 
 -----------------
-POW (B E)
+POW (Base Expoente) --- precisa ter incluido o <math.h> no inicio do codigo, calcula a potencia de um numero
 SQRT (x)
 PRINTF (" ", variavel)
 SCANF ("...")
