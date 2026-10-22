@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro numeros[4]
+    inteiro soma = 0
+
+    para (inteiro i = 0; i < 4; i++) {
+      escreva("Digite um numero: ")
+      leia(numeros[i])
+      soma = soma + numeros[i]
+    }
+
+    escreva("A soma dos quatro números é: ", soma, "\n")
+  }
+}
