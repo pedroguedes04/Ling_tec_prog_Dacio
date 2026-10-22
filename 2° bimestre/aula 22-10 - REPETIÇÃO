@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+
+// Laço de repetição
+    inteiro numeros[4]
+
+    para (inteiro i = 0; i < 4; i++) {
+      escreva("Digite o ", i + 1, "º numero: ")
+      leia(numeros[i])
+    }
+
+    escreva("\nLista de numeros:\n")
+    para (inteiro i = 0; i < 4; i++) {
+      escreva(numeros[i], "\n")
+    }
+  }
+}
