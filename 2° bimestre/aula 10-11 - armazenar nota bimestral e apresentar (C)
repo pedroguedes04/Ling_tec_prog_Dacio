@@ -14,10 +14,13 @@ int main(int argc, char *argv){
 	for(i=0; i<10; i++) scanf("%d", &vet_notas[i]);
 	system("cls");
 	
-	printf("Qual nota deseja visualizar?");
+	printf("Qual nota deseja visualizar? ");
 	scanf("%d",&num);
-	if(num>0 && num<11) printf("%d",vet_notas[num]);
-	else printf("Nota não cadastrada");
+	
+	if(num>=1  && num<=10)
+	printf("%d",num, vet_notas[num-1]);
+	else
+	printf("Nota não cadastrada");
 	
 	return 0;
 }
